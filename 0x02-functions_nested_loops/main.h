@@ -1,5 +1,5 @@
-#ifndef main_h_
-#define main_h_
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 /**
  * _putchar - writes the character c to stdout
@@ -71,7 +71,6 @@ int print_last_digit(int);
 
 void jack_bauer(void);
 
-
 /**
  * times_table - print multiplication table
  */
@@ -100,6 +99,4 @@ void print_to_98(int n);
  */
 
 void print_times_table(int n);
-
 #endif
-
