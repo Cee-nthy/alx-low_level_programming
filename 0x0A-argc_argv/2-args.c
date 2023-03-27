@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - print name of program
+ * main - print each argument passed to program on a line
  * @argc: argument counter
  * @argv: pointer to array of arguments
  * Return: 0 on success
@@ -10,8 +10,10 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc > 0)
-		printf("%s\n", argv[0]);
+	int i = 0;
+
+	while (i < argc)
+		printf("%s\n", argv[i++]);
 
 	return (0);
 }
